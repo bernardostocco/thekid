@@ -1,0 +1,207 @@
+svg{
+    width: 30px;
+    height: 30px;
+    margin-left: 50%;
+    margin-top: 10px;
+}
+
+
+#caixa {
+    width: 900px;
+    height: 600px;
+    background-color: black;
+    border-radius: 60px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#caixa img{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+
+#botao{
+    background-color: #f8f8f8;
+    border-radius: 100px;
+    width: 200px;
+}
+
+#botao:hover{
+    background-color: gray;
+}
+
+#cadastro {
+    width: 900px;
+    height: 900px;
+    background-color: black;
+    border-radius: 60px;
+    margin: 0 auto;
+    margin-top: 130px;
+    text-align: center;
+}
+
+#cadastrou{
+    background-color: #f8f8f8;
+    border-radius: 100px;
+    width: 200px;
+}
+
+#cadastrou:hover{
+    background-color: gray;
+}
+
+input {
+    width: 550px;
+    height: 50px;
+    background-color: #FFFF;
+    border-radius: 70px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.cinza {
+    background-color: white;
+    padding: 5px;
+    list-style: none;
+}
+
+#logo img{
+    width: 150px;
+    margin-left: 47%;
+    display: block;
+}
+
+#logo{
+    background-color: azure;
+}
+
+button{
+    background-color: black;
+    border-color: black;
+}
+
+.cinza img{
+    width: 27px;
+    margin-left: 50%;
+    display: block
+}
+
+.cinza h3 {
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+.cinza{
+    margin-top: -5px;
+}
+
+ul{
+    margin-left: 5%;
+}
+
+
+header{
+    background-color: black;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+}
+
+
+header a{
+    color: #f8f8f8;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+#entrar{
+    background-color: azure;
+    width: 30%;
+    height: 20px;
+    margin-left: 46%;
+    
+}
+
+#entrar a{
+    color: black;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+#cadastrar{
+    margin-left: 85%;
+}
+
+#cadastrar a{
+    margin-left: 5px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+    #caixa{
+        width: 350px;
+        height: 600px;
+    }
+
+    input {
+        width: 250px;
+        height: 40px;
+    }
+
+    #botao{
+        border-radius: 100px;
+        width: 100px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+ 
+    #cadastro{
+        width: 350px;
+        height: 600px;
+    }
+
+    input {
+        width: 250px;
+        height: 50px;
+        background-color: #FFFF;
+        border-radius: 70px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    #entrar{
+        margin-left: 179px;
+    }
+
+    #logo img{
+        margin-left: 194px;
+    }
+
+    #cadastrou{
+        width: 100px;
+    }
+
+    h1{
+        font-size: 19px;
+    }
+
+}
